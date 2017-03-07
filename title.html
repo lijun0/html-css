@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font:12px Helvetica,Arial,sans-serif;
+        line-height: 1.62;
+    }
+    .global-nav{
+        height: 28px;
+        color:#d5d5d5;
+        background-color: #545652;
+        min-width: 950px;
+    }
+    .global-nav .top-nav-info{
+        float: right;
+        margin: 0 12px 0 0;
+        line-height: 28px;
+    }
+    .global-nav-items ul{
+        margin-left: 30px;
+    }
+    .global-nav-items li{
+        float:left;
+        width: 50px;
+        line-height: 28px;
+       
+    }
+    .global-nav-items a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .top-nav-doubanapp a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .top-nav-info a{
+        color: #fff;
+        text-decoration: none;
+        width: 30px;
+    }
+    .top-nav-info {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+    .top-nav-info, .nav-login{
+        float: left;
+        padding-left: 20px;
+    }
+    .top-nav-info, .nav-register{
+        width: 100px;
+        margin-right: 20px;
+    }
+    .pic{
+        float:right;
+    }
+
+    .pic a img{
+        width: 174.375px;
+        height: 90px;
+        float:right;
+    }
+    .nav-logo a{
+        width: 145px;
+        height: 56px;
+        float: left;
+        font-size: 30px;
+        color:#F2901C;
+        line-height: 56px;
+        margin:10px;
+        text-decoration: none;
+    }
+    .nav{
+        background-color:#f0f3ef;
+    }
+    .inp{
+        float: left;
+        width: 440px;
+        height: 34px;
+    }
+    #inp-query{
+        width: 461px;
+        height: 30px;
+    }
+    .nav-search{
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    input {
+        background-image: url(/f/shire/b78a848a3825bda97797e3c1816ad3b01139aa1c/pics/nav1/nav_mu_bg.png);
+    }
+    .inp-btn {
+        float: left;
+       
+        padding-top: 7px;
+    }
+   
+    .nav-search .inp input {
+    background: #fff;
+    width: 96%;
+    margin: 0;
+    text-align: left;
+    height: 30px;
+    padding-left: 10px;
+    height: 28px\9;
+    line-height: 28px\9;
+    outline: none;
+    font-size: 12px;
+    margin-right: 3px;
+    vertical-align: middle;
+    }
+    .nav-annon ul{
+        padding-left: 10px;
+    }
+    .nav-annon a{
+        color:#545652;
+        text-decoration: none;
+        font-size:14px;
+
+    }
+    .nav-wrap{
+        border:1px solid #000;
+    }
+    .pic{
+        border:1px solid #000;
+    }
+   
+    .global-nav .top-nav-doubanapp{
+        position: relative;
+        float: right;
+        margin-right: 5px;
+        line-height: 28px;
+    }
+    .global-nav .top-nav-doubanapp .lnk-doubanapp{
+        display: inline-block;
+        zoom:1;
+        padding: 0 8px;
+        height: 28px;
+    }
+    .global-nav .top-nav-doubanapp .more-items{
+        padding: 10px 20px 30px;
+        left: -76px;
+        width: 211px;
+        border-top: none;
+        color:#111;
+        font-size: 15px;
+        line-height: 1.62;
+        font-weight: bold;
+        text-align: center;
+        -webkit-font-smoothing:antialiased;
+        text-rendering: optimizelegibility;
+    }
+    .global-nav  .more-items{
+        display: none;
+        position: absolute;
+    }
+    p{
+        display: block;
+        -webkit-margin-before:1em;
+        -webkit-margin-after:1em;
+        -webkit-margin-start:0px;
+        -webkit-margin-end:0px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        cursor:pointer;
+    }
+    div{
+        display: block;
+    }
+    .nav .nav-logo{
+        float: left;
+        height: 56px;
+        width: 145px;
+        margin: 0 13px 0 0;
+        
+    }
+    form{
+        display: block;
+    }
+    fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    }
+    legend {
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    }
+   
+
+    label {
+    font-family: Tahoma;
+    vertical-align: middle;
+    }
+    #db-nav-music .nav-search .inp {
+    background-image: url(/f/shire/b78a848a3825bda97797e3c1816ad3b01139aa1c/pics/nav1/nav_mu_bg.png);
+    }
+    
+    
+    a img {
+    border-width: 0;
+    vertical-align: middle;
+    }
+    .nav .nav-primary, .nav .nav-secondary {
+    width: 950px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+    }
+    .nav-secondary ul {
+    margin: 9px 0;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .nav-secondary .nav-items li {
+    _float: left;
+    _display: inline;
+    }
+    .nav-secondary li {
+    display: inline;
+    margin-right: 30px;
+    }
+</style>
+</head>
+<body>
+    <div id="db-global-nav" class="global-nav">
+        <div class="db">
+            <div class="top-nav-info">
+                <a href="https://www.douban.com/accounts/login?source=music" class="nav-login" ref="nofollow">登录</a>
+                <a href="https://www.douban.com/accounts/register?source=music" class="nav-register" ref="nofollow">注册</a>
+            </div>
+            <div class="top-nav-doubanapp">
+                <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+                <div id="top-nav-appintro" class="more-items">
+                    <p class="appintro-title">豆瓣</p>
+                    <p class="slogan">我们的精神角落</p>
+                    <p class="qrcode">扫码直接下载</p>
+                    <div class="download">
+                        <a href="https://www.douban.com/doubanapp/app?channel=top-nav">iPhone</a>
+                        <span>.</span>
+                        <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="download-android">Android</a>
+                    </div>
+                </div>
+                <div id="doubanapp-tip" style="display:none;">
+                    <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 4.0 全新发布</a>
+                    <a href="javascript: void 0;" class="tip-close">*</a>
+                </div>
+            </div>
+            <div class="global-nav-items">
+                <ul>
+                    <li><a href="https://www.douban.com/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-main","uid":"0"}">豆瓣</a></li>
+                    <li><a href="https://book.douban.com/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-main","uid":"0"}">读书</a></li>
+                    <li><a href="https://movie.douban.com/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-book","uid":"0"}">电影</a></li>
+                    <li><a href="https://music.douban.com/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-movie","uid":"0"}">音乐</a></li>
+                    <li><a href="https://www.douban.com/location/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-location","uid":"0"}">同城</a></li>
+                    <li><a href="https://www.douban.com/group/" target="_blank" data-moreurl-dict="{"from":"top-nav-click-group","uid":"0"}">小组</a></li>
+                    <li><a href="https://read.douban.com/?dcs=top-nav&dcm=douban" target="_blank" data-moreurl-dict="{"from":"top-nav-click-read","uid":"0"}">阅读</a></li>
+                    <li><a href="https://douban.fm/?from_=shire_top_nav" target="_blank" data-moreurl-dict="{"from":"top-nav-click-fm","uid":"0"}">FM</a></li>
+                    <li><a href="https://dongxi.douban.com/?dcs=top-nav&dcm=douban" target="_blank" data-moreurl-dict="{"from":"top-nav-click-commodity","uid":"0"}">东西</a></li>
+                    <li><a href="https://market.douban.com/?utm_campaign=douban_top_nav&utm_source=douban&utm_medium=pc_web" target="_blank" data-moreurl-dict="{"from":"top-nav-click-market","uid":"0"}">市集</a></li>
+                    <li>
+                        <a href="#more" class="bn-more">更多</a>
+                        <div class="more-items">...</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div id="db-nav-music" class="nav">
+     <div class="nav-wrap">
+        <div class="nav-primary">
+                <div class="nav-logo">
+                    <a href="https://music.douban.com"><strong>豆瓣音乐</strong></a>
+                </div>
+                <div class="nav-search">
+                    <form action="https://music.douban.com/subject_search" method="get">
+                        
+                            <!--<legend>搜索：</legend>-->
+                            <!--<lable for="inp-query" style="display:none;">唱片名、表演者、条码、ISRC</lable>-->
+                            <div class="inp">
+                                <input id="inp-query" name="search_text" size="22" maxlength="60" value placeholder="唱片名、表演者、条码、ISRC" autocomplete="off">
+                            </div>
+                            <div class="inp-btn">
+                                <input type="submit" value="搜索">
+                            </div>
+                            <input type="hidden" name="cat" value="1003">
+                    </form>
+                </div>
+        </div>
+        <div class="nav-secondary">
+           <div class="nav-annon">
+            <ul>
+                <li><a href="https://music.douban.com/artists/">音乐人</a></li>
+                <li><a href="https://music.douban.com/artists/royalty/">金羊毛计划</a></li>
+                <li><a href="https://music.douban.com/topics/">专题</a></li>
+                <li><a href="https://music.douban.com/chart">排行榜</a></li>
+                <li><a href="https://music.douban.com/tag/">分类浏览</a></li>
+                <li><a href="https://music.douban.com/review/latest/">乐评</a></li>
+                <li><a href="https://douban.fm/?from_=music_nav">豆瓣</a></li>
+                <li><a href="https://douban.fm/?from_=music_nav">歌单</a></li>
+                <li><a href="https://artist.douban.com/abilu/2016">阿比鹿音乐奖</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pic">
+          <a href="https://music.douban.com/annual2016/?source=navigation" target="_blank" class="ban-annual12016">
+            <img src="https://img3.doubanio.com/f/music/0b4dbb27aebf2dcc74e25009e1452d0ae5535c38/pics/music/annual2016.png" alt="豆瓣2016年度音乐榜单">
+          </a>
+        </div>
+     </div>
+</div>
+
+    
+
+</body>
+</html>
