@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>豆瓣音乐</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            background-image:url('background.png');
+        }
+        .login{
+            float:right;
+        }
+        .login a{
+            text-decoration: none;
+            color:#2c863c;
+
+        }
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        .musician{
+            padding-top: 30px;
+            text-align: center;
+        }
+        .musician h1{
+            color:#4a4a4a;
+            font-weight: 400;
+        }
+        .musician-list ul{
+            margin: 40px 40px 10px 40px;
+        }
+        .musician-list ul li{
+            list-style: none;
+            display: inline-block;
+            width: 150px;
+            margin-top: 10px;
+        }
+        .musician-list ul li img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .musician-list ul li p{
+            margin: 10px;
+        }
+        .musician-list ul li a{
+            text-decoration: none;
+            border:1px solid #fdc0d2;
+            color:#c8485f;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 14px;
+        }
+        .musician-list .btn{
+            height: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .musician-list .btn a{
+            text-decoration: none;
+            color: #6e6d73;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .musician-list .btn a img{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .musician-list .btn a p{
+            display: inline-block;
+
+            margin-bottom: 10px;
+        }
+        .user ul li{
+            list-style: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .leave{
+            text-decoration: none;
+            color:#a6a6a8;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <a href="">已有账号登录 ></a>
+        </div>
+        <div class="musician">
+            <h1>挑选你喜欢的艺术家，开启私人音乐之旅</h1>
+            <div class="musician-list">
+                <ul>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>曾轶可</p>
+                        <a href="" >喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>曾轶可</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>supercell</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>Billie Joe Arm</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>The Piano Gu</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>HURTS</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>吉森信</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>痛仰</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>雷光夏</p>
+                        <a href="">喜欢</a>
+                    </li>
+                    <li>
+                        <img src="star.jpg" alt="">
+                        <p>五月天</p>
+                        <a href="">喜欢</a>
+                    </li>
+                </ul>
+                <div class="btn">
+                    <a href="" class="change">
+                        <img src="change.png" alt="">
+                        <p>换一批</p>
+                    </a>
+                    <a href="" class="search">
+                        <img src="search.png" alt="">
+                        <p>自己搜</p>
+                    </a>
+                </div>
+            </div>
+            <div class="user">
+                <ul>
+                    <li><img src="user.png" alt=""></li>
+                    <li><img src="user.png" alt=""></li>
+                    <li><img src="user.png" alt=""></li>
+                    <li><img src="user.png" alt=""></li>
+                    <li><img src="user.png" alt=""></li>
+                </ul>
+            </div>
+            <a href="" class="leave">
+                <img src="" alt="">跳过，直接去听歌 >
+            </a>
+        </div>
+    </div>
+</body>
+</html>
